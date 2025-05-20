@@ -4,6 +4,10 @@ Start from minimal installation.
 
 install with network manager
 
+```sh
+git clone git@github.com:juanvaccarezza/jizzarch.git
+```
+
 ## Tools
 
 - nvim

@@ -5,6 +5,13 @@ base_packages=(
   "git"
 )
 
+download_folder="$HOME/.jizzarch-tmp"
+
+# Create download_folder if not exists
+if [ ! -d $download_folder ]; then
+  mkdir -p $download_folder
+fi
+
 # Install required packages
 _installPackages() {
   toInstall=()
