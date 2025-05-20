@@ -2,6 +2,8 @@
 
 Start from minimal installation.
 
+install with network manager
+
 ## Tools
 
 - nvim
@@ -9,6 +11,7 @@ Start from minimal installation.
 - git
 - rust
 - gcc
+- python
 
 ## DE
 
@@ -16,6 +19,10 @@ Start from minimal installation.
 - Hyprland
 - waybar
 
-# Hardware specific
+## Productivity
+
+- Quarto
+
+## Hardware specific
 
 - NVIDIA 2060
