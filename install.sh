@@ -58,3 +58,44 @@ else
   _installYay
 fi
 echo
+
+removed_packages=(
+  "figlet"
+  "stow"
+)
+
+may_be_missing_packages=(
+  "wl-clipboard"
+)
+
+packages=(
+  "pacman-contrib"
+  "sed"
+  "nvim"
+  "xdg-user-dirs"
+  "man-pages"
+  "networkmanager"
+  "bluez"
+  "bluez-utils"
+  "hyprland"
+  "hyprpaper"
+  "hyprlock"
+  "hypridle"
+  "hyprpicker"
+  "noto-fonts"
+  "noto-fonts-emoji"
+  "noto-fonts-cjk"
+  "noto-fonts-extra"
+  "xdg-desktop-portal"
+  "xdg-desktop-portal-hyprland"
+  "libnotify"
+  "dunst"
+  "kitty"
+  "qt5-wayland"
+  "qt6-wayland"
+  "sddm"
+  "qt5-graphicaleffects"
+  "qt5-quickcontrols2"
+  "qt5-svg"
+  "uwsm"
+)
