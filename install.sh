@@ -99,3 +99,7 @@ packages=(
   "qt5-svg"
   "uwsm"
 )
+
+# Install required base packages
+echo ":: Installing all packages..."
+_installPackages "${packages[@]}"
